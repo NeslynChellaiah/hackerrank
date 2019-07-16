@@ -1,0 +1,8 @@
+M = int(input())
+L = [int(x) for x in input().split()]
+L.append(0)
+if M<len(L):
+    a = len(L)-M-1
+    print (L[a])
+else:
+    print ("NIL")
